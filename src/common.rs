@@ -1530,7 +1530,7 @@ pub async fn get_key(sync: bool) -> String {
         options.remove("key").unwrap_or_default()
     };
     if key.is_empty() {
-        key = config::RS_PUB_KEY.to_owned();
+        key = "Bpgl5SD8ScvqRgSoOsrGKvoX02CwVbC41yZCxT4I24o=".to_owned();
     }
     key
 }
